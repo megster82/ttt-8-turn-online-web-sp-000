@@ -38,3 +38,5 @@ def move(board, index, marker = "X")
   board[index] = marker
 end
 
+def turn(board)
+  puts "Please enter 1-9:"
